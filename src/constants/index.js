@@ -4,23 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
+  python,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
   rfa,
   ai,
   uci,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -76,16 +70,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
@@ -96,20 +86,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -167,57 +149,26 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "In progress",
-    name: "N/A",
-    designation: "N/A",
-    company: "N/A",
-    image: "N/A",
-  },
-  {
-    testimonial:
-      "In progress",
-    name: "N/A",
-    designation: "N/A",
-    company: "N/A",
-    image: "N/A",
-  },
-  {
-    testimonial:
-      "In progress",
-    name: "N/A",
-    designation: "N/A",
-    company: "N/A",
-    image: "N/A",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "RFASubBot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "If there is a sub request made to the bot, it will DM all teachers with a request for them to sub for a specific class & date. If they are able to, the Slack Bot will mark the role as “fulfilled”, and send the user the Zoom Link.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "React",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JasonD2626/RFASubBot",
   },
   {
-    name: "Job IT",
+    name: "IBM Fullstack Engineering Certificate",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -258,6 +209,27 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

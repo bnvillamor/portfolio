@@ -7,23 +7,18 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import python from "./tech/python.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import tesla from "./company/tesla.png";
 import uci from "./company/uci.png";
 import rfa from "./company/rfa.png";
 import ai from "./company/ai.png";
@@ -41,25 +36,20 @@ export {
   github,
   menu,
   close,
+  python,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   uci,
   rfa,
   ai,
-  tesla,
   carrent,
   jobit,
   tripguide,
