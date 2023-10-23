@@ -16,7 +16,9 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  rfa,
+  ai,
+  uci,
   tesla,
   shopify,
   carrent,
@@ -24,6 +26,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -118,7 +121,7 @@ const experiences = [
   {
     title: "Lab Tutor",
     company_name: "UC Irvine",
-    icon: starbucks,
+    icon: uci,
     iconBg: "#383E56",
     date: "April 2023 - June 2023",
     points: [
@@ -130,8 +133,8 @@ const experiences = [
   {
     title: "Vice President",
     company_name: "AI@UCI",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: ai,
+    iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
       "Coordinating team meetings and club projects, such as AWS DeepRacer and Kaggle competitions, to teach members about Python, reinforcement learning, and data science.",
@@ -142,8 +145,8 @@ const experiences = [
   {
     title: "Software Development Intern",
     company_name: "Robotics For All",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: rfa,
+    iconBg: "#E6DEDD",
     date: "August 2023 - Present",
     points: [
       "Volunteering at a nonprofit dedicated to providing STEM education to underserved communities, where I leverage my technical expertise to develop innovative backend applications that significantly enhanced operational efficiency,",
@@ -154,7 +157,7 @@ const experiences = [
   {
     title: "Undergraduate Researcher",
     company_name: "Cardiovascular Modeling Laboratory",
-    icon: meta,
+    icon: uci,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
