@@ -23,9 +23,10 @@ import uci from "./company/uci.png";
 import rfa from "./company/rfa.png";
 import ai from "./company/ai.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cml from "./cml.png";
+import coursera from "./coursera.png";
+import recallitall from "./recallitall.png";
+import rfasubbot from "./rfasubbot.png";
 
 export {
   logo,
@@ -50,7 +51,8 @@ export {
   uci,
   rfa,
   ai,
-  carrent,
-  jobit,
-  tripguide,
+  cml,
+  coursera,
+  recallitall,
+  rfasubbot,
 };

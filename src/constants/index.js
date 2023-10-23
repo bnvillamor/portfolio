@@ -15,9 +15,10 @@ import {
   rfa,
   ai,
   uci,
-  carrent,
-  jobit,
-  tripguide,
+  cml,
+  coursera,
+  recallitall,
+  rfasubbot,
   threejs,
 } from "../assets";
 
@@ -151,7 +152,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "RFASubBot",
+    name: "RFASubBot (In Progress)",
     description:
       "If there is a sub request made to the bot, it will DM all teachers with a request for them to sub for a specific class & date. If they are able to, the Slack Bot will mark the role as “fulfilled”, and send the user the Zoom Link.",
     tags: [
@@ -164,71 +165,63 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: rfasubbot,
     source_code_link: "https://github.com/JasonD2626/RFASubBot",
   },
   {
-    name: "IBM Fullstack Engineering Certificate",
+    name: "RecallItAll.ai (In Progress)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Collaborating with AWS Senior Solutions Architect to develop a Google Chrome Extension leveraging machine learning algorithms to assist users in recalling and auto-populating input fields from their browsing history, enhancing browsing efficiency and user experience",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: recallitall,
+    source_code_link: "https://chrome.google.com/webstore/category/extensions",
   },
   {
-    name: "Trip Guide",
+    name: "Cardiovascular Modeling Laboratory (In Progress)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Modernizing the lab’s website by implementing cutting-edge web technologies, resulting in a more engaging and user-friendly online platform for sharing.",
     tags: [
       {
-        name: "nextjs",
+        name: "WordPress",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cml,
+    source_code_link: "https://grosberglab.eng.uci.edu/",
   },
   {
-    name: "Trip Guide",
+    name: "IBM Full Stack Software Developer Certificate (In Progress)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Completed Courses: Introduction to Cloud Computing, Developing Front-End Apps with React, Developing Back-End Apps with Node.js and Express, Python for Data Science, AI and Development, Django Application Development with SQL and Databases, Introduction to Containers w/ Docker, Kubernetes and OpenShift",
     tags: [
       {
-        name: "nextjs",
+        name: "CloudServices",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "WebDevelopment",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coursera,
+    source_code_link: "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
   },
 ];
 
