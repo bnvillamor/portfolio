@@ -207,9 +207,9 @@ const projects = [
     source_code_link: "https://grosberglab.eng.uci.edu/",
   },
   {
-    name: "IBM Full Stack Software Developer Certificate (In Progress)",
+    name: "IBM Full Stack Software Developer Certificate",
     description:
-      "Completed Courses: Introduction to Cloud Computing, Developing Front-End Apps with React, Developing Back-End Apps with Node.js and Express, Python for Data Science, AI and Development, Django Application Development with SQL and Databases, Introduction to Containers w/ Docker, Kubernetes and OpenShift",
+    "Hands-on working knowledge with HTML, CSS, JavaScript, GitHub, Node.js, React, Cloud Native practices, DevOps, CI/CD, Containers, Docker, Kubernetes, OpenShift, Python programming, Databases, SQL, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.",
     tags: [
       {
         name: "CloudServices",
