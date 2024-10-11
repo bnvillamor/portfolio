@@ -21,12 +21,15 @@ import threejs from "./tech/threejs.svg";
 
 import uci from "./company/uci.png";
 import rfa from "./company/rfa.png";
+import sf from "./company/sf.png";
 import ai from "./company/ai.png";
 
 import cml from "./cml.png";
 import coursera from "./coursera.png";
 import recallitall from "./recallitall.png";
 import rfasubbot from "./rfasubbot.png";
+import aws from "./aws.png";
+
 
 export {
   logo,
@@ -51,6 +54,8 @@ export {
   uci,
   rfa,
   ai,
+  aws,
+  sf,
   cml,
   coursera,
   recallitall,

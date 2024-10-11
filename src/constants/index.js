@@ -12,6 +12,7 @@ import {
   nodejs,
   git,
   docker,
+  sf,
   ai,
   uci,
   aws,
