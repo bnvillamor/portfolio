@@ -12,7 +12,6 @@ import {
   nodejs,
   git,
   docker,
-  sf,
   ai,
   uci,
   aws,
@@ -113,7 +112,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "State Farm",
-    icon: sf,
+    icon: ai,
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
@@ -205,7 +204,7 @@ const projects = [
       },
     ],
     image: aws,
-    source_code_link: "https://grosberglab.eng.uci.edu/",
+    source_code_link: "https://www.credly.com/badges/8fd54e35-308d-4bdd-a4f2-9c3b09e5d160/public_url",
   },
   {
     name: "IBM Full Stack Software Developer Certificate",
