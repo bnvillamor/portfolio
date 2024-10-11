@@ -12,13 +12,11 @@ import {
   nodejs,
   git,
   docker,
-  rfa,
+  sf,
   ai,
   uci,
-  cml,
+  aws,
   coursera,
-  recallitall,
-  rfasubbot,
   threejs,
 } from "../assets";
 
@@ -115,7 +113,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "State Farm",
-    icon: rfa,
+    icon: sf,
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
@@ -206,7 +204,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: cml,
+    image: aws,
     source_code_link: "https://grosberglab.eng.uci.edu/",
   },
   {
