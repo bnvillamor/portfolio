@@ -113,7 +113,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "State Farm",
-    icon: ai,
+    icon: sf,
     iconBg: "#E6DEDD",
     date: "June 2024 - August 2024",
     points: [
