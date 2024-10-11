@@ -102,19 +102,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Lab Tutor",
-    company_name: "UC Irvine",
+    title: "Undergraduate Researcher",
+    company_name: "Institute of Transportation Studies",
     icon: uci,
     iconBg: "#383E56",
-    date: "April 2023 - June 2023",
+    date: "October 2023 - June 2024",
     points: [
-      "Provided guidance to labs of over 30 students, assisting them with assignments in ICS 31 - Introduction to Programming in Python",
-      "Assisted students in debugging complex projects and lab assignments, enhancing their understanding of OOP concepts and problem-solving skills.",
-      "Successfully managed the oversight of lab assessments, ensuring a fair evaluation process for students while delivering constructive feedback",
+      "Utilized Google Colab to train machine learning models for denoising vehicular trajectory data",
+      "Won Audience Choice Award for Most Innovative Research Project at the BruinAI SoCal AI Responsibility Summit",
     ],
   },
   {
-    title: "Vice President",
+    title: "Software Engineering Intern",
+    company_name: "State Farm",
+    icon: rfa,
+    iconBg: "#E6DEDD",
+    date: "June 2024 - August 2024",
+    points: [
+      "Developed an internal-facing application leveraging Grafana and Prometheus to monitor and visualize metrics from 10+ API endpoints",
+      "Utilized Docker for containerization, enabling seamless deployment of the application, managed in a ROSA deployment",
+      "Won 3rd Place at the 4th Annual Intern DeepRacer Days Competition by fine-tuning a reinforcement learning model to achieve a 00:27.128s lap time on the Stratus Loop racetrack",
+    ],
+  },
+  {
+    title: "President",
     company_name: "AI@UCI",
     icon: ai,
     iconBg: "#383E56",
@@ -123,18 +134,6 @@ const experiences = [
       "Coordinating team meetings and club projects, such as AWS DeepRacer and Kaggle competitions, to teach members about Python, reinforcement learning, and data science.",
       "Spearheading the planning and execution of diverse club events, ensuring seamless coordination, budget adherence, and maximum member engagement, resulting in 200% increased participation and club growth.",
       "Delegating tasks and responsibilities to board members, fostering a well-structured and efficient organizational system that promotes collaboration and productivity among members.",
-    ],
-  },
-  {
-    title: "Software Development Intern",
-    company_name: "Robotics For All",
-    icon: rfa,
-    iconBg: "#E6DEDD",
-    date: "August 2023 - Present",
-    points: [
-      "Volunteering at a nonprofit dedicated to providing STEM education to underserved communities, where I leverage my technical expertise to develop innovative backend applications that significantly enhanced operational efficiency,",
-      "Developing an efficient Slack messaging bot using Python and Flask to streamline the process of finding substitute instructors, enhancing communication and minimizing downtime",
-      "Actively participating in UI/UX discussions and worked collaboratively to enhance website design, focusing on both aesthetic and functional elements.",
     ],
   },
   {
@@ -151,56 +150,60 @@ const experiences = [
 ];
 
 const projects = [
+  // {
+  //   name: "RFASubBot (In Progress)",
+  //   description:
+  //     "If there is a sub request made to the bot, it will DM all teachers with a request for them to sub for a specific class & date. If they are able to, the Slack Bot will mark the role as “fulfilled”, and send the user the Zoom Link.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "React",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: rfasubbot,
+  //   source_code_link: "https://github.com/JasonD2626/RFASubBot",
+  // },
+  // {
+  //   name: "RecallItAll.ai (In Progress)",
+  //   description:
+  //     "Collaborating with AWS Senior Solutions Architect to develop a Google Chrome Extension leveraging machine learning algorithms to assist users in recalling and auto-populating input fields from their browsing history, enhancing browsing efficiency and user experience",
+  //   tags: [
+  //     {
+  //       name: "React.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: recallitall,
+  //   source_code_link: "https://chrome.google.com/webstore/category/extensions",
+  // },
   {
-    name: "RFASubBot (In Progress)",
+    name: "AWS Certified Cloud Practitioner",
     description:
-      "If there is a sub request made to the bot, it will DM all teachers with a request for them to sub for a specific class & date. If they are able to, the Slack Bot will mark the role as “fulfilled”, and send the user the Zoom Link.",
+      "Displays fundamental understanding of IT services and their uses in the AWS Cloud. Demonstrates cloud fluency and foundational AWS knowledge. Shows ability to identify essential AWS services necessary to set up AWS-focused projects.",
     tags: [
       {
-        name: "Python",
+        name: "CloudServices",
         color: "blue-text-gradient",
       },
       {
-        name: "React",
+        name: "AWS",
         color: "green-text-gradient",
-      },
-    ],
-    image: rfasubbot,
-    source_code_link: "https://github.com/JasonD2626/RFASubBot",
-  },
-  {
-    name: "RecallItAll.ai (In Progress)",
-    description:
-      "Collaborating with AWS Senior Solutions Architect to develop a Google Chrome Extension leveraging machine learning algorithms to assist users in recalling and auto-populating input fields from their browsing history, enhancing browsing efficiency and user experience",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: recallitall,
-    source_code_link: "https://chrome.google.com/webstore/category/extensions",
-  },
-  {
-    name: "Cardiovascular Modeling Laboratory (In Progress)",
-    description:
-      "Modernizing the lab’s website by implementing cutting-edge web technologies, resulting in a more engaging and user-friendly online platform for sharing.",
-    tags: [
-      {
-        name: "WordPress",
-        color: "blue-text-gradient",
       },
     ],
     image: cml,
@@ -221,7 +224,7 @@ const projects = [
       },
     ],
     image: coursera,
-    source_code_link: "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
+    source_code_link: "https://www.coursera.org/account/accomplishments/professional-cert/XGA4448HMJTN",
   },
 ];
 
